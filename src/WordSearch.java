@@ -66,9 +66,13 @@ public class WordSearch {
 		}
 		
 		Map<String, Integer> matchCounts = new HashMap<>();
+		Set<String> seen = new HashSet<>();
 
 		for(String item: terms){
 			item = item.toLowerCase();
+			if (!seen.add(item)) {
+    			continue;
+			}
 			Set<String> val = map.get(item);
 			if(val == null){
 				continue;
