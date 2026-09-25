@@ -1,5 +1,5 @@
 /**
- * @author [your name here]
+ * @author [Tensae Laki]
  *
  * This class represents a single sentence from the input file.
  * 
