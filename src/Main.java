@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
         // implement this method in Step 4
-
+        // testing stuff
         if(args.length == 0){
             System.out.println("no input file");
             return;
